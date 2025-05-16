@@ -141,6 +141,12 @@
                                     </div>
                                 @endif
                             </form>
+
+                            <div class="form text-center">
+                                <a href="{{ route('register') }}">
+                                    Don't have an account? Register here
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

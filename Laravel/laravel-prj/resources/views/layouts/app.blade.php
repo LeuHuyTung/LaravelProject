@@ -597,7 +597,9 @@
             <!-- side-mobile-menu end -->
         </aside>
         <!--================= Banner Section Start Here =================-->
-        <div class="banner banner-1 bg-image">
+        @if (Route::currentRouteName() === 'home.index')
+
+          <div class="banner banner-1 bg-image">
             <div class="container">
                 <div class="banner-inner">
                     <div class="row">
@@ -695,6 +697,7 @@
                 </div>
             </div>
         </div>
+        @endif
         <!--================= Banner Section End Here =================-->
     </header>
     <!--================= Header Section End Here =================-->
